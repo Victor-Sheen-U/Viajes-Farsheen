@@ -1,7 +1,6 @@
 package com.eam.viajes_farsheen.businessLayer.dto.customer;
 
-import io.swagger.v3.oas.annotations.media.
-        Schema;
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
