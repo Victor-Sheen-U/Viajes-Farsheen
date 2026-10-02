@@ -27,7 +27,7 @@ public class DestinationDTO {
     @Schema(description = "Ciudad del destino de viaje", example = "Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch")
     private String city;
 
-    @Schema(description = "Descripcion asignada a el destino de viaje (descripcion para una descripcion algo redundante jajajaj)")
+    @Schema(description = "Descripcion asignada a el destino de viaje (descripcion para una descripcion algo redundante JAJAJAJ)")
     private String description;
 
     @Schema(description = "Informacion sobre el tipo de clima del destino de viaje", example = "bueno bonito y barato")

@@ -1,7 +1,6 @@
 package com.eam.viajes_farsheen.businessLayer.dto.destination;
 
-import io.swagger.v3.oas.annotations.media.
-        Schema;
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
@@ -28,7 +27,7 @@ public class DestinationCreateDTO {
     private String country;
 
     @NotBlank(message = "El nombre de la ciudad es obligatoria")
-    @Size(min = 5, max = 50, message = "La ciudad debe de tener un tamaño entre 5 y 50 caracteres")
+    @Size(min = 5, max = 60, message = "La ciudad debe de tener un tamaño entre 5 y 50 caracteres")
     @Schema(description = "Nombre que es asignado a la ciudad del destino de viaje", example = "Medallo", requiredMode = Schema.RequiredMode.REQUIRED)
     private String city;
 

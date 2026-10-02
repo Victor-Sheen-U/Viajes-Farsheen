@@ -16,7 +16,7 @@ import javax.management.Descriptor;
 
 public class CustomerDTO {
 
-    @Schema(description = "El identificador unico que se asigna en el sistema", example = 1, accessMode = Schema.AccessMode.READ_ONLY)
+    @Schema(description = "El identificador unico que se asigna en el sistema", example = "1", accessMode = Schema.AccessMode.READ_ONLY)
     private Long id;
 
     @Schema(description = "Nombre/s del customer", example = "Victor Sheen")
@@ -27,6 +27,9 @@ public class CustomerDTO {
 
     @Schema(description = "Numero de telefono del customer", example = "+57 3137294712")
     private String phone;
+
+    @Schema(description = "Correo electronico del customer", example = "victorarias@eam.edu.co")
+    private String email;
 
     @Schema(description = "Documento de identidad ofical del customer (Cedula o pasaporte)", example = "1092458721")
     private String identityDocument;

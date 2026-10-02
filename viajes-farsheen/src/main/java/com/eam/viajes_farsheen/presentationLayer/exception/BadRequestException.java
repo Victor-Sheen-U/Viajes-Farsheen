@@ -1,4 +1,9 @@
 package com.eam.viajes_farsheen.presentationLayer.exception;
 
-public class BadRequestException {
+// excepcion para datos invalidos o cupos insuficientes (400)
+public class BadRequestException extends RuntimeException {
+
+    public BadRequestException(String message) {
+        super(message);
+    }
 }
